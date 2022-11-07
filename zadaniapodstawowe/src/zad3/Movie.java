@@ -35,7 +35,7 @@ public class Movie {
     }
 
     public boolean isEqual(Movie checkingMovie) {
-        return (checkingMovie.getTitle().equals(title) || checkingMovie.getYearOfRelease() == yearOfRelease);
+        return (checkingMovie.getTitle().equals(title) && checkingMovie.getYearOfRelease() == yearOfRelease);
     }
 
 }
